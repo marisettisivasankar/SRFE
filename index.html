@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- =====================================================
+       SRFE – Authorized Lovol Harvester Dealer
+       Production-Ready Homepage
+       Tech: HTML5 + CSS3 + Vanilla JS
+  ====================================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Sree Ram Farm Equipments (SRFE) – Authorized Lovol Harvester Dealer. Track combine harvesters built for South Indian wet paddy fields with strong service and financing support." />
+  <title>SRFE | Authorized Lovol Harvester Dealer</title>
+  <link rel="icon" type="image/jpeg" href="assets/SRFE_logo.jpg">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+    <div class="container header-inner">
+      <!-- Brand images: put your logo files in assets/ (e.g. assets/srfe-logo.png, assets/lovol-logo.png) -->
+      <div class="brand">
+        <a href="#home" aria-label="SRFE Home">
+          <img src="assets/SRFE_logo.jpg" alt="SRFE logo" class="srfe-logo">
+        </a>
+        <a href="#">
+          <img src="assets/global.webp" alt="Lovol logo" class="lovol-logo">
+        </a>
+      </div>
+      <i class="fas fa-bars menu-toggle"></i>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#dealers">Dealer Network</a>
+        <a href="#service">Service & Support</a>
+        <a href="#financing">Financing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <!--
+      Hero media container: place a video (preferred) and an image fallback here.
+      - Put your files in `assets/hero.mp4` and `assets/hero.webm` or update paths below.
+      - The <video> is muted+autoplay+loop and will play on modern browsers (playsinline for mobile).
+      - The <img> acts as a fallback if video can't or won't play.
+    -->
+    <div class="hero-media" aria-hidden="true">
+      <video class="bg-video" autoplay muted loop playsinline
+        poster="https://via.placeholder.com/1920x900?text=Lovol+Harvester+in+Paddy+Field">
+        <source src="assets/rice_harvester.mp4" type="video/mp4">
+        <!-- If you want, you can remove the <img> below and ensure the video poster is set. -->
+      </video>
+      <img class="bg-image" src="https://via.placeholder.com/1920x900?text=Lovol+Harvester+in+Paddy+Field"
+        alt="Lovol harvester working in a paddy field (background)">
+    </div>
+
+    <div class="container">
+      <div class="hero-content" role="region" aria-label="Hero">
+        <div class="hero-text">
+          <h1>Crawler Combine Harvesters</h1>
+          <p>High-performance track combine harvesters engineered for wet paddy fields. Productivity meets reliability.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Request a Quote</a>
+            <a href="#about" class="btn btn-secondary">Explore Features</a>
+          </div>
+        </div>
+
+        <div class="hero-features">
+          <div class="hero-feature">
+            <strong>120 HP</strong>
+            <span>Powerful Engine</span>
+          </div>
+          <div class="hero-feature">
+            <strong>Wet Fields</strong>
+            <span>Paddy Specialist</span>
+          </div>
+          <div class="hero-feature">
+            <strong> Service</strong>
+            <span>Rapid Support</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ================= ABOUT (full-viewport) ================= -->
+  <section class="about-section" id="about" aria-labelledby="aboutHeading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-media" aria-hidden="true">
+          <img src="RG108 PLUS Multi-Crop Crawler Combine.webp" alt="SRFE team with harvester">
+        </div>
+        <div class="about-text">
+          <h2 id="aboutHeading">About SRFE</h2>
+          <p><b>Sree Ram Farm Equipments (SRFE)</b> is an authorized <b>Lovol</b> dealer focused on delivering
+            reliable harvesting solutions to South Indian farmers. We combine local expertise, prompt after-sales
+            service, and genuine spare parts to ensure your harvesters run longer with less downtime.</p>
+          <p>Our offerings include sales, service, and financing assistance so farmers can access the right equipment
+            with confidence.</p>
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRUST (card style) ================= -->
+  <section class="trust-section" aria-labelledby="trustHeading">
+    <div class="container">
+      <h2 id="trustHeading">Why Farmers Trust Sree Ram Farm Equipments</h2>
+      <div class="trust-grid">
+        <div class="trust-card">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div>
+          <div>
+            <h3>Authorized Lovol Dealer</h3>
+            <p>Genuine products backed by official dealer support and warranty.</p>
+          </div>
+        </div>
+
+        <div class="trust-card">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-network-wired"></i></div>
+          <div>
+            <h3>Strong Service Network</h3>
+            <p>Trained technicians and fast spares across the region.</p>
+          </div>
+        </div>
+
+        <div class="trust-card">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-gears"></i></div>
+          <div>
+            <h3>Genuine Spare Parts</h3>
+            <p>Factory-fit parts to keep machines running longer with less downtime.</p>
+          </div>
+        </div>
+
+        <div class="trust-card">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-tractor"></i></div>
+          <div>
+            <h3>Farmer-Focused Support</h3>
+            <p>On-field assistance and training to maximize machine performance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCTS ================= -->
+  <section id="products">
+    <div class="container">
+      <h2>Our Popular Lovol Harvesters</h2>
+      <div class="products-container">
+
+        <!-- Product 1: RG108PLUS -->
+        <div class="product-row">
+          <div class="product-image">
+            <img src="RG108 PLUS Multi-Crop Crawler Combine.webp" alt="Lovol RG120Evo AC">
+          </div>
+          <div class="product-info">
+            <h3>Lovol RG108PLUS</h3>
+            <p>A high-efficiency, operator-friendly harvester designed for small to medium fields with versatile crop
+              adaptability.</p>
+
+            <div class="product-specs">
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-horse-head"></i></div>
+                <div class="spec-text">120 HP Power</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-snowflake"></i></div>
+                <div class="spec-text">AC Cabin</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-gas-pump"></i></div>
+                <div class="spec-text">High MPG</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-road"></i></div>
+                <div class="spec-text">HD Tracks</div>
+              </div>
+            </div>
+
+            <div class="product-actions">
+              <a class="btn btn-primary" href="#contact">Get Quote</a>
+              <a class="btn btn-secondary" href="#contact">Download Brochure</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: RG108 -->
+        <div class="product-row">
+          <div class="product-image">
+            <img src="RG108 PLUS Multi-Crop Crawler Combine.webp" alt="Lovol RG108">
+          </div>
+          <div class="product-info">
+            <h3>Lovol RG108</h3>
+            <p>The perfect balance of power and economy. The RG108 is a reliable workhorse designed for medium-sized
+              farm holdings, offering low maintenance costs and easy maneuverability.</p>
+
+            <div class="product-specs">
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-horse-head"></i></div>
+                <div class="spec-text">108 HP Power</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-wrench"></i></div>
+                <div class="spec-text">Low Maint.</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-cogs"></i></div>
+                <div class="spec-text">Easy Ops</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-shield-alt"></i></div>
+                <div class="spec-text">Durable</div>
+              </div>
+            </div>
+
+            <div class="product-actions">
+              <a class="btn btn-primary" href="#contact">Get Quote</a>
+              <a class="btn btn-secondary" href="#contact">Download Brochure</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 1: RG108PLUS -->
+        <div class="product-row">
+          <div class="product-image">
+            <img src="RG108 PLUS Multi-Crop Crawler Combine.webp" alt="Lovol RG120Evo AC">
+          </div>
+          <div class="product-info">
+            <h3>Lovol RG108PLUS</h3>
+            <p>A high-efficiency, operator-friendly harvester designed for small to medium fields with versatile crop
+              adaptability.</p>
+
+            <div class="product-specs">
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-horse-head"></i></div>
+                <div class="spec-text">120 HP Power</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-snowflake"></i></div>
+                <div class="spec-text">AC Cabin</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-gas-pump"></i></div>
+                <div class="spec-text">High MPG</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon"><i class="fas fa-road"></i></div>
+                <div class="spec-text">HD Tracks</div>
+              </div>
+            </div>
+
+            <div class="product-actions">
+              <a class="btn btn-primary" href="#contact">Get Quote</a>
+              <a class="btn btn-secondary" href="#contact">Download Brochure</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY CHOOSE ================= -->
+  <!-- ================= WHY CHOOSE ================= -->
+  <section class="why-section">
+    <div class="container why-container">
+
+      <!-- Sticky Header Side -->
+      <div class="why-header">
+        <h2>Why Farmers Choose SRFE & Lovol</h2>
+        <p>We understand that a harvester is more than just a machine; it's your partner in productivity. Here is why
+          thousands of farmers trust us for their harvesting needs.</p>
+        <a href="#contact" class="btn btn-primary">Partner With Us</a>
+      </div>
+
+      <!-- Grid Side -->
+      <div class="benefits-grid">
+
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-seedling"></i></div>
+          <h4>Indian Field Ready</h4>
+          <p>Specially engineered track systems designed to conquer deep wet mud and heavy paddy conditions.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-tools"></i></div>
+          <h4>Easy Maintenance</h4>
+          <p>Simple mechanical design ensuring low-cost maintenance and easy availability of spare parts.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-chart-line"></i></div>
+          <h4>High Resale Value</h4>
+          <p>Lovol harvesters retain their value over time, making them a smart long-term investment.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-headset"></i></div>
+          <h4>Reliable Support</h4>
+          <p>Our dedicated service team is always ready to ensure your harvest never stops.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DEALER NETWORK ================= -->
+  <!-- ================= DEALER NETWORK ================= -->
+  <section id="dealers">
+    <div class="container">
+      <h2>Local Presence, Regional Care</h2>
+      <p class="subtitle">Find your nearest Sree Ram Farm Equipments center across South India.</p>
+
+      <div class="regions-grid">
+
+        <!-- Region 1: Telangana -->
+        <div class="region-card">
+          <div class="region-icon"><i class="fas fa-building"></i></div>
+          <h3>Telangana <span class="region-type">HQ</span></h3>
+          <p class="region-address">Plot No. 45, Auto Nagar, Hyderabad, 500070.<br>Major Spares & Service Hub.</p>
+          <div class="region-actions">
+            <a href="tel:+919876543210" class="btn btn-region-primary"><i class="fas fa-phone"></i> Call</a>
+            <a href="#" class="btn btn-region-outline"><i class="fas fa-map-marker-alt"></i> Map</a>
+          </div>
+        </div>
+
+        <!-- Region 2: Andhra Pradesh -->
+        <div class="region-card">
+          <div class="region-icon"><i class="fas fa-store-alt"></i></div>
+          <h3>Andhra Pradesh <span class="region-type">Branch</span></h3>
+          <p class="region-address">Door 12-4, MG Road, Vijayawada, 520010.<br>Sales & Service Center.</p>
+          <div class="region-actions">
+            <a href="tel:+919876543210" class="btn btn-region-primary"><i class="fas fa-phone"></i> Call</a>
+            <a href="#" class="btn btn-region-outline"><i class="fas fa-map-marker-alt"></i> Map</a>
+          </div>
+        </div>
+
+        <!-- Region 3: Karnataka -->
+        <div class="region-card">
+          <div class="region-icon"><i class="fas fa-warehouse"></i></div>
+          <h3>Karnataka <span class="region-type">Dealer</span></h3>
+          <p class="region-address">Industrial Area, Raichur By-pass, 584101.<br>Regional Distributor.</p>
+          <div class="region-actions">
+            <a href="tel:+919876543210" class="btn btn-region-primary"><i class="fas fa-phone"></i> Call</a>
+            <a href="#" class="btn btn-region-outline"><i class="fas fa-map-marker-alt"></i> Map</a>
+          </div>
+        </div>
+
+        <!-- Region 4: Tamil Nadu -->
+        <div class="region-card">
+          <div class="region-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tamil Nadu <span class="region-type">Service</span></h3>
+          <p class="region-address">2nd Street, Trichy-Chennai Highway, 620002.<br>After-Sales Point.</p>
+          <div class="region-actions">
+            <a href="tel:+919876543210" class="btn btn-region-primary"><i class="fas fa-phone"></i> Call</a>
+            <a href="#" class="btn btn-region-outline"><i class="fas fa-map-marker-alt"></i> Map</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICE ================= -->
+  <section id="service">
+    <div class="container">
+      <h2 style="font-size: 2.5rem; margin-bottom: 10px; color: var(--dark-green);">Expert Service & Support</h2>
+      <p style="color: var(--gray); margin-bottom: 50px;">We ensure your machine keeps running with our comprehensive
+        after-sales care.</p>
+
+      <div class="service-grid">
+        <div class="service-card">
+          <i class="fa-solid fa-user-gear"></i>
+          <h3>Trained Engineers</h3>
+          <p>Expert technicians available for on-site repair and maintenance.</p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h3>Fast Spare Parts</h3>
+          <p>Genuine Lovol parts delivered quickly to minimize downtime.</p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>On-field Support</h3>
+          <p>We come to your farm to resolve issues right where you work.</p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-calendar-check"></i>
+          <h3>Scheduled Maintenance</h3>
+          <p>Regular service camps and checkups to keep your harvester healthy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section>
+    <div class="testimonial" id="testimonial">
+      <p id="testimonialText">“Lovol harvester worked perfectly in our wet paddy fields.”</p>
+      <strong id="testimonialAuthor">– Ramesh, Andhra Pradesh</strong>
+    </div>
+  </section>
+
+  <!-- ================= FINANCING ================= -->
+  <section class="financing" id="financing">
+    <div class="container financing-container">
+
+      <div class="financing-text">
+        <h2>Financial Freedom for <span>Farmers</span></h2>
+        <p>Providing easy access to credit and subsidies so you can own the best harvesting technology without burden.
+          We handle the paperwork for you.</p>
+
+        <div class="bank-partners">
+          <div class="bank-pill">State Bank of India</div>
+          <div class="bank-pill">HDFC Bank</div>
+          <div class="bank-pill">Union Bank</div>
+          <div class="bank-pill">Cholamandalam</div>
+          <div class="bank-pill">Govt Subsidies</div>
+        </div>
+      </div>
+
+      <div class="financing-cta">
+        <h3>Easy EMI Options</h3>
+        <p>Get up to 80% funding with flexible seasonal repayment plans tailored for harvest cycles.</p>
+        <a class="btn btn-primary" href="#contact">Check Eligibility</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+
+      <div class="contact-wrapper">
+
+        <!-- Left Side: Info & Map -->
+        <div class="contact-info-box">
+          <div class="info-item">
+            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="info-content">
+              <h4>Headquarters</h4>
+              <p>Plot No. 45, Auto Nagar, Hyderabad,<br>Telangana, India - 500070.</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="info-content">
+              <h4>Phone</h4>
+              <p><a href="tel:+919999999999" style="color:var(--gray);">+91 99999 99999</a> (Sales)<br>
+                <a href="tel:+918888888888" style="color:var(--gray);">+91 88888 88888</a> (Service)
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+            <div class="info-content">
+              <h4>Email</h4>
+              <p><a href="mailto:info@srfe.com" style="color:var(--gray);">info@srfe.com</a></p>
+            </div>
+          </div>
+
+          <!-- Google Map Embed -->
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.970221379435!2d78.56385757497224!3d17.365383583518386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98d1a60394d7%3A0x6d1109a27b871c82!2sAuto%20Nagar%2C%20Hyderabad%2C%20Telangana%20500070!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <!-- Right Side: Form -->
+        <div class="contact-form-box">
+          <h3>Get a Quote</h3>
+          <form id="leadForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="tel" id="mobile" placeholder="Mobile Number" required>
+            <input type="text" id="location" placeholder="City / District" required>
+            <select id="model">
+              <option value="">Select Harvester Model</option>
+              <option>Lovol RG120Evo AC</option>
+              <option>Lovol RG108 Plus</option>
+              <option>Not Sure / Need Advice</option>
+            </select>
+            <textarea rows="4" placeholder="Message or specific requirements..."></textarea>
+            <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>SRFE</h3>
+        <p>Authorized Lovol Harvester Dealer delivering reliable harvesting solutions for South Indian farmers.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#products">Products</a><br>
+        <a href="#service">Service</a><br>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h3>Dealer Regions</h3>
+        <p>AP, Telangana, Karnataka, Tamil Nadu, Kerala</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Phone: +91 99999 99999</p>
+        <p>WhatsApp Available</p>
+      </div>
+    </div>
+    <div class="copyright">
+      © 2025 Sree Ram Farm Equipments. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    // Mobile Menu Toggle
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+
+    // Simple Form Validation
+    document.getElementById('leadForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Thank you! Our team will contact you shortly.');
+      this.reset();
+    });
+
+    // Testimonial Slider
+    const testimonials = [
+      {
+        text: "“Lovol harvester worked perfectly in our wet paddy fields.”",
+        author: "– Ramesh, Andhra Pradesh"
+      },
+      {
+        text: "“Harvest completed faster with less labor.”",
+        author: "– Mahesh, Telangana"
+      }
+    ];
+
+    let index = 0;
+    setInterval(() => {
+      index = (index + 1) % testimonials.length;
+      document.getElementById('testimonialText').textContent = testimonials[index].text;
+      document.getElementById('testimonialAuthor').textContent = testimonials[index].author;
+    }, 4000);
+  </script>
+
+</body>
+
+</html>
